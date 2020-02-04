@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tour"
+        android:scaleType="centerCrop"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/minar_e_pak"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:onClick="toLahore"
+            />
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="90dp"
+            android:text="Lahore"
+            android:textSize="25sp"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_bg"
+            android:onClick="toLahore"
+            android:id="@+id/btnLahore"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
